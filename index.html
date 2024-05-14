@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDL9W8M');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Hotjar Tracking Code for https://crosspollination.com.br/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3563493, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <title>Cross Pollination - Inscrição</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Crosspollination, cross pollination, site cross pollination, site Crospollination" />
+    <meta name="description" content="Cross Pollination envolve incentivar as equipes a disseminarem boas práticas de análise de dados dentro da Pfizer, acelerando o aprendizado analítico contínuo, a troca de ideias e a inovação..." />
+    <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/finais.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.1/sweetalert2.min.css" integrity="sha512-NvuRGlPf6cHpxQqBGnPe7fPoACpyrjhlSNeXVUY7BZAj1nNhuNpRBq3osC4yr2vswUEuHq2HtCsY2vfLNCndYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <style>
+        .question-div {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: #9F84F8;
+        }
+
+        .question-div i {
+            color: #FFF;
+        }
+
+
+        @media (max-width: 600px) {
+            .tooltip {
+                left: -34px !important;
+            }
+
+            .tab .d-flex {
+                flex-direction: column;
+            }
+
+            .content-pptx .flex {
+                align-items: flex-start !important;
+                flex-direction: column;
+                gap: 11px;
+            }
+
+            #inscricao {
+                margin-top: 180px !important;
+                padding: 0 10px;
+            }
+        }
+
+        #intro .play-absolute {
+            inset: 0 !important;
+            top: 0 !important;
+        }
+
+        #intro .glide__arrow {
+            background: linear-gradient(90deg, rgba(20, 192, 205, 1) 0%, rgba(159, 133, 248, 1) 35%, rgba(237, 119, 128, 1) 100%);
+            border-radius: 50%;
+            border: 1px solid #9f85f8;
+        }
+
+        .content-pptx {
+
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+
+        .content-pptx .flex {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+
+        .content-pptx .flex a:nth-child(1) {
+            background: #64b376;
+        }
+
+        .content-pptx .flex a:nth-child(1):hover {
+            color: white !important;
+            border: none !important;
+        }
+
+        .content-pptx .flex .bt-inscricao-roxo {
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .content-pptx h3 {
+            font-size: 18px;
+        }
+
+        #inscricao {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body class="saas-classic" data-spy="scroll" data-target=".s2-main-navigation" data-offset="80">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDL9W8M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- preloader - start -->
+    <div id="preloader" class="saas-classic-preloader"></div>
+    <div class="up">
+        <a href="#" id="scrollup" class="saas-classic-scrollup text-center"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <!-- Start of header section
+        ============================================= -->
+    <header id="header_main" class="saas_two_main_header">
+        <div class="container">
+            <div class="s_main_menu">
+                <div class="row">
+                    <div class="col-5 col-sm-6 col-md-2">
+                        <div class="brand_logo text-center">
+                            <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class=" col-7 col-sm-6 col-md-8">
+                        <div class="main_menu_list d-flex justify-content-center clearfix">
+                            <nav class="s2-main-navigation  clearfix ul-li">
+                                <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                                    <li><a class="nav-link" href="#jardim">Jardim Pollination</a></li>
+                                    <!-- <li><a class="nav-link" href="#desafio">Desafio</a></li> -->
+                                    <li><a class="nav-link" href="#Pollination">O que é Cross Pollination?</a></li>
+                                    <li><a class="nav-link" href="#convite">Convite para você</a></li>
+                                    <!-- <li class="incri"><a class="nav-link bt-inscricao" href="#inscricao">Inscrição</a> -->
+                                    </li>
+                                    <li><a class="nav-link" href="#origami">Origami </a></li>
+                                </ul>
+                            </nav>
+                            <!-- <div class="saas_sign_up_btn text-center mobile d-none">
+                                <a href="#inscricao"> Faça a sua inscrição</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="brand_logo text-center desk">
+                            <img src="assets/img/saas-c/logo/logo-easy.png" alt="logo-easy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //desktop menu -->
+            <div class="s2-mobile_menu relative-position">
+                <div class="s2-mobile_menu_button s2-open_mobile_menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="s2-mobile_menu_wrap">
+                    <div class="mobile_menu_overlay s2-open_mobile_menu"></div>
+                    <div class="s2-mobile_menu_content">
+                        <div class="s2-mobile_menu_close s2-open_mobile_menu">
+                            <i class="far fa-times-circle"></i>
+                        </div>
+                        <div class="m-brand-logo text-center">
+                            <a href="!#"><img src="assets/img/saas-c/logo/logo-easy.png" alt=""></a>
+                        </div>
+                        <nav class="s2-mobile-main-navigation  clearfix ul-li">
+                            <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                <li><a class="links_mobile" href="#jardim">Jardim Pollination</a></li>
+                                <!-- <li><a class="links_mobile" href="#desafio">Desafio</a></li> -->
+                                <li><a class="links_mobile" href="#Pollination">O que é Cross Pollination?</a></li>
+                                <li><a class="links_mobile" href="#convite">Convite para você</a></li>
+                                <!-- <li><a class="links_mobile" href="#inscricao">Inscrição</a></li> -->
+                                <li><a class="links_mobile" href="#origami">Origami</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="">
+        <div id="inscricao" class="row">
+            <div class="col-12">
+                <h2 class="titulo-purple tit-p text-center arrumar-m">
+                    2ª Edição - Vamos compartilhar a cultura analítica!
+                </h2>
+                <p class="p-form">Faça aqui a sua inscrição no Cross Pollination e compartlhe suas experiências
+                </p>
+            </div>
+            <div class="col-12">
+                <form id="regForm" enctype="multipart/form-data">
+                    <div class="container">
+                        <div class="desk">
+                            <div class="row">
+                                <div class="col-9">
+                                    <h2 class="titulo-purple tit-p alinha-inscreva">Inscreva-se aqui:</h2>
+                                </div>
+                                <div class="col-3">
+                                    <div class="alinhar-d">
+                                        <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="titulo-purple tit-p alinha-inscreva">Inscreva-se aqui:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <div class="alinhar-d">
+                                        <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">Seu Nome
+                        <p>
+                            <input class="sombra" type="text" oninput="this.className = ''" id="email" name="nome" required>
+                        </p>
+                    </div>
+                    <div class="tab">Seu E-mail
+                        <p>
+                            <input class="sombra" type="email" oninput="this.className = ''" id="email" name="email" required>
+                            <span id="error-email">Este e-mail já está em uso</span>
+                        </p>
+                    </div>
+                    <div class="tab">E-mail do time responsável pela análise
+                        <p>
+                            <input type="text" class="sombra" oninput="this.className = ''" id="email_responsavel" name="email_responsavel">
+                        </p>
+                        <button id="addButton" class="bt-form mb-3" type="button"> Adicionar E-mail</button>
+                        <div id="inputContainer"></div>
+                    </div>
+                    <div class="tab">
+                        <div class="content-pptx">
+                            <h3>
+                                Por favor, faça o download deste PPT, siga as instruções e preencha-o
+                                completamente para finalizar sua inscrição no CrossPolination. Após preencher
+                                todos os campos, faça o upload do arquivo.
+                            </h3>
+                            <div class="flex">
+                                <a href="assets/pptx/FICHA-DE-INSCRIÇÃO.pptx" download class="bt-inscricao-roxo">
+                                    <i class="fa-solid fa-circle-down"></i>
+                                    BAIXAR PPT
+                                </a>
+                                <label for="arquivo" class="bt-inscricao-roxo">
+                                    <i class="fa-solid fa-circle-up"></i>
+                                    UPLOAD
+                                </label>
+                            </div>
+                            <input type="file" class="invisible" name="arquivo" id="arquivo" required>
+                        </div>
+                    </div>
+                    <div style="overflow:auto; margin-top: 20px;">
+                        <div style="float:left;">
+                            <button type="button" class="bt-form-v" id="prevBtn" onclick="nextPrev(-1)">VOLTAR</button>
+                        </div>
+                        <div id="buttton-app" style="float:right;">
+                            <button type="button" class="bt-form mostrar" id="nextBtn" onclick="nextPrev(1)">PRÓXIMO</button>
+                            <button type="submit" class="bt-form esconder" id="nextBtn">ENVIAR</button>
+                            <button type="button" class="bt-form esconder-2" style="margin-top: 14px;" id="salvar">SALVAR</button>
+                        </div>
+                    </div>
+                    <div style="text-align:center;margin-top:40px;">
+                        <span class="step"></span>
+                        <span class="step"></span>
+                        <span class="step"></span>
+                        <span class="step"></span>
+                    </div>
+                    <div id="loading" style="display: none">
+                        <img src="assets/loading.gif" alt="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="jardim" class="saas_two_team_section-bt">
+        <div class="container-fluid">
+            <div class="text-center">
+                <div class="tab2 d-flex justify-content-center" style="margin-top: 5rem;">
+                    <button class="tablinks rosa-button active" onclick="openCity(event, 'segunda')">2° Edição</button>
+                    <button class="tablinks roxo-button " onclick="openCity(event, 'primeira')">1° Edição</button>
+                </div>
+                <div class="col-12 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms" style="padding:0;">
+                    <div id="primeira" class="tabcontent">
+                        <div class="container">
+                            <h3 class="titulo-jardim">
+                                <strong>Veja as 10 melhores</strong>
+                                análises entre as 85 inscritas na 1ª edição do Cross Pollination. Aproveite a oportunidade para
+                                se inspirar com boas análises feitas pelos colegas. Quem sabe você não aplica ou adapta para a
+                                sua necessidade?
+                            </h3>
+                        </div>
+                        <p class="gray-texto-mouse">Clique com o mouse sobre as flores para conhecer mais sobre as análises vencedoras</p>
+                        <div class="t3">
+                            <figure>
+                                <img class="" src="assets/img/saas-c/jardim-v1-desk.webp" alt="Jardim" usemap="#jardim3" width="1500" height="715">
+                            </figure>
+                            <map name="#jardim3">
+                                <area shape="circle" class="flor" coords="204,161,60" alt="Nono Ganhador" data-bs-toggle="modal" data-bs-target="#modal9">
+                                <area shape="circle" class="flor" coords="530,282,60" alt="Oitavo" data-bs-toggle="modal" data-bs-target="#modal8">
+                                <area shape="circle" class="flor" coords="844,245,60" alt="Primeiro" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <area shape="circle" class="flor" coords="1057,176,60" alt="Sexto" data-bs-toggle="modal" data-bs-target="#modal6">
+                                <area shape="circle" class="flor" coords="1369,232,52" alt="Decimo" data-bs-toggle="modal" data-bs-target="#modal10">
+                                <area shape="circle" class="flor" coords="168,499,52" alt="Segundo" data-bs-toggle="modal" data-bs-target="#modal2">
+                                <area shape="circle" class="flor" coords="402,606,60" alt="Quarto" data-bs-toggle="modal" data-bs-target="#modal4">
+                                <area shape="circle" class="flor" coords="707,548,60" alt="Terceiro" data-bs-toggle="modal" data-bs-target="#modal3">
+                                <area shape="circle" class="flor" coords="1012,603,60" alt="Setimo" data-bs-toggle="modal" data-bs-target="#modal7">
+                                <area shape="circle" class="flor" coords="1294,541,60" alt="Quinto" data-bs-toggle="modal" data-bs-target="#modal5">
+                            </map>
+                        </div>
+                        <div class="t2">
+                            <figure>
+                                <img class="" src="assets/img/saas-c/jardim-v1-tablet.webp" alt="Jardim" usemap="#jardim2" width="991" height="833">
+                            </figure>
+                            <map name="#jardim2">
+                                <area shape="circle" class="flor" coords="244,147,54" data-bs-toggle="modal" data-bs-target="#modal9">
+                                <area shape="circle" class="flor" coords="527,104,55" data-bs-toggle="modal" data-bs-target="#modal8">
+                                <area shape="circle" class="flor" coords="819,150,50 " data-bs-toggle="modal" data-bs-target="#modal1">
+                                <area shape="circle" class="flor" coords="134,366,52" data-bs-toggle="modal" data-bs-target="#modal6">
+                                <area shape="circle" class="flor" coords="381,448,52" data-bs-toggle="modal" data-bs-target="#modal3">
+                                <area shape="circle" class="flor" coords="653,355,51" data-bs-toggle="modal" data-bs-target="#modal4">
+                                <area shape="circle" class="flor" coords="884,434,46" data-bs-toggle="modal" data-bs-target="#modal10">
+                                <area shape="circle" class="flor" coords="232,623,46" data-bs-toggle="modal" data-bs-target="#modal2">
+                                <area shape="circle" class="flor" coords="565,619,50" data-bs-toggle="modal" data-bs-target="#modal7">
+                                <area shape="circle" class="flor" coords="785,704,50" data-bs-toggle="modal" data-bs-target="#modal5">
+                            </map>
+                        </div>
+                        <div class="t1">
+                            <figure>
+                                <img class="" src="assets/img/saas-c/jardim-v1-mobi.webp" alt="Jardim" usemap="#jardim1" width="1080" height="2464">
+                            </figure>
+                            <map name="#jardim1">
+                                <area shape="circle" class="flor" coords="765,294,99" alt="Oitavo" data-bs-toggle="modal" data-bs-target="#modal8">
+                                <area shape="circle" class="flor" coords="403,511,106" alt="nono" data-bs-toggle="modal" data-bs-target="#modal9">
+                                <area shape="circle" class="flor" coords="887,746,102" alt="Sexto" data-bs-toggle="modal" data-bs-target="#modal6">
+                                <area shape="circle" class="flor" coords="296,943,96" alt="Sétimo" data-bs-toggle="modal" data-bs-target="#modal7">
+                                <area shape="circle" class="flor" coords="688,1250,98" alt="Primeiro" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <area shape="circle" class="flor" coords="260,1383,98" alt="Quarto" data-bs-toggle="modal" data-bs-target="#modal4">
+                                <area shape="circle" class="flor" coords="907,1645,88" alt="Décimo" data-bs-toggle="modal" data-bs-target="#modal10">
+                                <area shape="circle" class="flor" coords="547,1741,102" alt="Terceiro" data-bs-toggle="modal" data-bs-target="#modal3">
+                                <area shape="circle" class="flor" coords="261,2002,89" alt="Segundo" data-bs-toggle="modal" data-bs-target="#modal2">
+                                <area shape="circle" class="flor" coords="996,2197,95" alt="Quinto" data-bs-toggle="modal" data-bs-target="#modal5">
+                            </map>
+                        </div>
+                    </div>
+                    <div id="segunda" class="tabcontent">
+                        <div class="container">
+                            <h3 class="titulo-jardim texto-rosa">
+                                Confira os melhores projetos analíticos da 2ª edição do Cross Pollination. Aproveite a oportunidade para se inspirar com boas análises. Quem sabe você não aplica ou adapta para a sua necessidade?
+                            </h3>
+                        </div>
+                        <p class="gray-texto-mouse">Clique com o mouse sobre as flores para conhecer mais sobre as análises vencedoras</p>
+                        <div class="tela-desk-segunda-edicao">
+                            <figure>
+                                <img class="" src="assets/img/saas-c/jardim-v2-desk.webp" alt="jardim v2" usemap="#jardim-desk-v2" width="1920" height="937">
+                            </figure>
+                            <map name="#jardim-desk-v2">
+                                <area shape="circle" class="flor" coords="247,366,73" alt="Primeiro" data-bs-toggle="modal" data-bs-target="#modal1-v2">
+                                <area shape="circle" class="flor" coords="450,639,73" alt="Segundo" data-bs-toggle="modal" data-bs-target="#modal2-v2">
+                                <area shape="circle" class="flor" coords="685,428,73" alt="Terceiro" data-bs-toggle="modal" data-bs-target="#modal3-v2">
+                                <area shape="circle" class="flor" coords="1137,745,76" alt="Quarto" data-bs-toggle="modal" data-bs-target="#modal4-v2">
+                                <area shape="circle" class="flor" coords="1388,454,74" alt="Quinto" data-bs-toggle="modal" data-bs-target="#modal5-v2">
+                                <area shape="circle" class="flor" coords="1601,767,72" alt="Sexto" data-bs-toggle="modal" data-bs-target="#modal6-v2">
+                            </map>
+                        </div>
+                        <div class="tela-tablet-segunda-edicao">
+                            <figure>
+                                <img class="" src="assets/img/saas-c/jardim-v2-tablet.webp" alt="jardim v2" usemap="#jardim-tablet-v2" width="1920" height="1442">
+                            </figure>
+                            <map name="#jardim-tablet-v2">
+                                <area shape="circle" class="flor" coords="590,524,103" alt="Primeiro" data-bs-toggle="modal" data-bs-target="#modal1-v2">
+                
+                                <area shape="circle" class="flor" coords="624,1142,103" alt="Segundo" data-bs-toggle="modal" data-bs-target="#modal2-v2">
+
+                                <area shape="circle" class="flor" coords="256,802,103" alt="Terceiro" data-bs-toggle="modal" data-bs-target="#modal3-v2">
+
+                                <area shape="circle" class="flor" coords="1252,905,103" alt="Quarto" data-bs-toggle="modal" data-bs-target="#modal4-v2">
+                                <area shape="circle" class="flor" coords="1687,685,103" alt="Quinto" data-bs-toggle="modal" data-bs-target="#modal5-v2">
+                                <area shape="circle" class="flor" coords="1663,1160,103" alt="Sexto" data-bs-toggle="modal" data-bs-target="#modal6-v2">
+                            </map>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=0069E0339345E2363D474883AA2717B3744B54B78F37457F%2D56E501C11BAF72EFAD7F8D1DD18CF7531FBCD3BBA165F3F62734A0E7E92F11D4&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=1b16f5a0%2D1058%2D4000%2D8b41%2D69011027b9cc" class="bt-inscricao bt-inscricao2">Clique e conheça os demais projetos inscritos na 2ª edição</a>
+            </div>
+        </div>
+    </section>
+    <section class="divisor">
+    </section>
+    <!-- <sectio id="desafio" class="saas_two_main_header">
+
+    </section> -->
+    <div id="desafio" class="saas_two_banner_section relative-position pt-4" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="tit-desafio">Desafio Jardim Pollination - Encontre os beija-flores.</h2>
+                </div>
+                <div class="col-md-12 sem-padding-md">
+                    <form name="form-desafio" id="form-desafio" style="margin-top:20px; margin-bottom: 40px;" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="etapa">
+                            <div class="text-center">
+                                <div class="row ">
+                                    <div class="col-12">
+                                        <h3 class="desafio-h3">Para participar, preencha o formulário.</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" id="desafio-nome" placeholder="Nome">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" id="desafio-email" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <h3 class="desafio-h3-2">Quem encontrar o número correto de pássaros no menor
+                                            tempo ganha!
+                                            <!--span class="span-jd">Jardim</span-->
+                                        </h3>
+                                        <div class="color-div-etapa-1">
+                                            <p class="p-etapa-1 text-center">
+                                                <strong>No nosso Jardim Pollination temos diversos
+                                                    beija-flores,</strong>
+                                                quando estiver preparado aperte o botão começar e encontre todos eles.
+                                            </p>
+                                        </div>
+                                        <button class="bt-comecar" type="button" id="nextBtn" onclick="validarEtapa1()">Começar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="etapa sem-img" style="display: none;">
+                            <div class="text-center">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="bird-stp-3">
+                                            <h2 class="tit-desafio etp2">Encontre os beija-flores coloridos no jardim...
+                                            </h2>
+                                            <img class="bird-roxo" src="assets/img/bird-roxo.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="timer-container">
+                                            <div class="flex-content">
+                                                <div class="flex-span">
+                                                    <span id="number-1">0</span>
+                                                    <span id="number-2">0</span>
+                                                </div>
+                                                <span class="text">Minutos</span>
+                                            </div>
+                                            <span class="color-points">:</span>
+                                            <div class="flex-content">
+                                                <div class="flex-span">
+                                                    <span id="number-3">0</span>
+                                                    <span id="number-4">0</span>
+                                                </div>
+                                                <span class="text">Segundos</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-flex-center">
+                                        <p class="p-bird">Resposta </p>
+                                        <div class="Respostas-bird">
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-azul" placeholder="">
+                                                <label class="l-bird">azul</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-laranja" placeholder="">
+                                                <label class="l-bird">laranja</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-vermelho" placeholder="">
+                                                <label class="l-bird">vermelho</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-roxo" placeholder="">
+                                                <label class="l-bird">roxo</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-verde" placeholder="">
+                                                <label class="l-bird">verde</label>
+                                            </div>
+                                            <input type="hidden" name="tempo" id="tempo">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <button class="bt-comecar" onclick="validarEtapa2()" id="enviar" type="button">Enviar</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 borda-roxo image-container">
+                                        <img class="jardim-bird" src="assets/img/jardim-bird.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="etapa" style="display: none;">
+                        <div class="text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img class="img-stp-3" src="assets/img/logo-grande.png">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="etp-3-p1">Agradecemos a sua participação!</p>
+                        <p class="etp-3-p2">Em breve confirmaremos o resultado!</p>
+                        <p class="chamada-final">
+                            <a class="bt-ck" href="#jardim">Clique para conhecer o Jardim da 1° edição de Cross
+                                Pollination</a><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="divisor">
+    </section>
+    <section id="Pollination" class="saas_two_banner_section relative-position pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="s2-banner_area relative-position">
+                        <div class="s2-banner_content saas2-headline pera-content">
+                            <h1 class="desk text-center">
+                                Vamos disseminar a análise de dados!
+                            </h1>
+                            <h1 class="mobile">
+                                Vamos disseminar<br>a análise de dados!
+                            </h1>
+                        </div>
+                        <div class="banner_mockup text-center" id="video-principal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s2-banner_shape3 position-absolute"><img src="assets/img/saas-c/banner/b-shape2.png" alt=""></div>
+    </section>
+    <section class="divisor">
+    </section>
+    <section class="saas_two_team_section-bt">
+        <div class="container">
+            <h3 class="text-center titulo-purple tit-p mt-0"> Vídeos TOP 10 - 1º edição</h3>
+            <div class="glide" id="intro">
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/1.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=FcQOeehk5ZM">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/2.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=1v4rfGwp-1Q">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/3.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=j1Aq0ggLeSQ">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/4.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=J3GTaYnfocM">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/5.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=Gmjdj8qc6fo">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/6.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=hMnsEVGHHfg">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/7.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=f345lMr6IX8">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/8.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=HgMAHw_7Zf0">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/9.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=fcvwNV5P4Ag">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="glide__slide position-relative">
+                            <img src="assets/img/carrosel-top-10/10.jpg" alt="">
+                            <div class="play-absolute">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=DLfDX3_aqmk">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Banner section
+        ============================================= -->
+    <section class="divisor">
+    </section>
+    <section id="" class="saas_two_feature_section">
+        <div class="container">
+            <div class="s2-feature_content">
+                <div class="row">
+                    <div class="col-12 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class=>
+                            <div class="text-center">
+                                <h2 class="titulo-purple tit-p">O que é o projeto Easy Analytics Cross Pollination?</h2>
+                                <p class="tam-p">
+                                    Assim como na natureza, onde os pássaros e as abelhas polinizam as flores ajudando
+                                    a diversificar e fortalecer o ecossistema, o projeto <strong class="titulo-purple">Cross Pollination</strong> envolve incentivar as equipes a
+                                    disseminarem boas práticas de análise de dados dentro da Pfizer, acelerando o
+                                    aprendizado analítico contínuo, a troca de ideias e a inovação.
+                                </p>
+                                <p class="tam-p">
+                                    Na natureza, a polinização permite que diferentes espécies de plantas se
+                                    reproduzam, resultando em plantas mais resistentes e adaptáveis às
+                                    mudanças ambientais. Da mesma forma, <strong class="titulo-purple">o conceito de
+                                        Cross Pollination nos
+                                        negócios significa incentivar que indivíduos de diferentes áreas e realidades
+                                        colaborem, resultando em soluções analíticas mais robustas e adaptáveis às
+                                        mudanças do mercado.
+                                    </strong>
+                                </p>
+                                <p class="tam-p">
+                                    O projeto Easy Analytics <strong class="titulo-purple">Cross Pollination</strong>
+                                    busca abraçar a diversidade de ideias
+                                    e perspectivas. Tem o propósito de partilhar e perpetuar o florescer de soluções
+                                    analíticas mais eficientes e criativas. O objetivo é expandir a visão de mundo
+                                    dos colaboradores, incentivando o aprendizado analítico contínuo e a inovação.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="divisor">
+    </section>
+    <section class="saas_two_feature_section " style="display: none;">
+        <div class="container">
+            <div class="s2-feature_content">
+                <div class="row">
+                    <div class="col-12 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class=>
+                            <div class="text-center">
+                                <h2 class="titulo-purple tit-p">Competição Cross Pollination<br><span class="orange">valendo prêmios!</span></h2>
+                                <p class="tam-p">
+                                    O <strong class="titulo-purple">Cross Pollination</strong> irá acontecer através de
+                                    uma competição saudável entre todas
+                                    as análises que forem embasadas em dados para gerar as conclusões, insights e
+                                    aprendizados. <strong class="red-strong">E todas as áreas podem participar.</strong>
+                                </p>
+                                <p class="tam-p">
+                                    O time <strong class="titulo-purple">Cross Pollination</strong> irá selecionar as 3
+                                    melhores análises de dados e esses grupos serão convidados a apresentar a análise no
+                                    dia 26 de abril na Pfizer no evento <strong class="titulo-purple">Cross
+                                        Pollination</strong> com a presença do time de liderança. Nesse evento iremos
+                                    eleger a melhor análise! Será um espaço de aprendizado e troca de experiência.
+                                    Participe!
+                                </p>
+                                <img src='data:image/png;base64,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' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="divisor-branco">
+    </section>
+    <section id="saas_two_feature" class="saas_two_feature_section color-blue-2 d-none">
+        <div class="container">
+            <div class="s2-feature_content">
+                <div class="row">
+                    <div class="col-12 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <h2 class="tit-blue tit-b text-center">Quais são os prêmios?</h2>
+                        <div class="flex-container">
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                                <div class="alinhar">
+                                    <img src="assets/img/saas-c/banner/trofeu.png">
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-10 col-md-10 col-lg-11 col-xl-11">
+                                <p class="tam-p">
+                                    O primeiro lugar irá ganhar um troféu do projeto Cross Pollination e uma mentoria
+                                    com o time Easy Analytics.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex-container">
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                                <div class="alinhar">
+                                    <img src="assets/img/saas-c/banner/cafe.png">
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-10 col-md-10 col-lg-11 col-xl-11">
+                                <p class="tam-p">
+                                    Os 3 grupos selecionados para apresentar terão um café da manhã com a Marta Diez e o
+                                    time de liderança. Além disso irão receber um pin com logo do Cross Pollination
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex-container">
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                                <div class="alinhar">
+                                    <img src="assets/img/saas-c/banner/quadro.png">
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-10 col-md-10 col-lg-11 col-xl-11">
+                                <h3 class="orange">Quais análises serão elegíveis?</h3>
+                                <p class="tam-p">
+                                    Serão elegíveis as análises realizadas a partir de Maio de 2022, que forem baseadas
+                                    em dados para gerar as conclusões, insights e aprendizados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="convite" class="saas_two_team_section-bt">
+        <div class="container">
+            <div class="saas_two_section_title saas2-headline text-center">
+                <div><a class="bt-inscricao2 d-none" href="#inscricao">Faça a sua inscrição</a></div>
+                <h2 class="azul mt-0">#EuPolinizo</h2>
+            </div>
+        </div>
+    </section>
+    <section class="saas_two_team_section-bt colorfull ">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 height-slider">
+                        <div style="display: none;" class="owl-carousel video-section">
+                            <div class="item">
+                                <div>
+                                    <video class="js-player" crossorigin playsinline>
+                                        <source src="#" type="video/mp4" size="720">
+                                    </video>
+                                    <div class="play-absolute">
+                                        <a class="popup-youtube" href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <video class="js-player" crossorigin playsinline>
+                                        <source src="#" type="video/mp4" size="720">
+                                    </video>
+                                    <div class="play-absolute">
+                                        <a class="popup-youtube" href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <video class="js-player" crossorigin playsinline>
+                                        <source src="#" type="video/mp4" size="720">
+                                    </video>
+                                    <div class="play-absolute">
+                                        <a class="popup-youtube" href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <video class="js-player" crossorigin playsinline>
+                                        <source src="#" type="video/mp4" size="720">
+                                    </video>
+                                    <div class="play-absolute">
+                                        <a class="popup-youtube" href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <video class="js-player" crossorigin playsinline>
+                                        <source src="#" type="video/mp4" size="720">
+                                    </video>
+                                    <div class="play-absolute">
+                                        <a class="popup-youtube" href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="carousel d-flex justify-content-center">
+                            <li class="items left-pos" id="1">
+                                <img src="assets/img/1.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/1.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items main-pos" id="2">
+                                <img src="assets/img/2.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/2.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="3">
+                                <img src="assets/img/3.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/3.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="4">
+                                <img src="assets/img/4.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/4.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="5">
+                                <img src="assets/img/5.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/5.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="6">
+                                <img src="assets/img/6.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/6.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="7">
+                                <img src="assets/img/7.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/7.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="8">
+                                <img src="assets/img/8.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/8.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="9">
+                                <img src="assets/img/9.jpg" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/9.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="items back-pos" id="10">
+                                <img src="assets/img/11.png" />
+                                <div class="play-absolute">
+                                    <a class="popup-youtube" href="assets/videos/11.mp4">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- <div class="dots-carrousel">
+                            <div class="prev"> <i class="fa-solid fa-chevron-left"></i> </div>
+                            <div class="next"> <i class="fa-solid fa-angle-right"></i> </div>
+                        </div> -->
+                        <a class="carousel-control-prev-2" href="#testimonial_slide" role="button" data-slide="prev"></a>
+                        <a class="carousel-control-next-2" href="#testimonial_slide" role="button" data-slide="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divisor">
+        </div>
+        <div id="origami">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="titulo-purple tit-p text-center tit-origame">
+                            Passo a passo faça seu origami de passarinho
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center" id="video-final">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="saas_two_footer" class="saas_two_footer_section relative-position">
+        <div class="footer_content pera-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/pfizer.png" alt="logo-pfazer">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/logo-easy.png" alt="logo-easy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="s2-copyright text-center">2023
+        <meta name="keywords" content=" accountant, advertising, advisor, agency, broker, business, clean, consulting, creative, elementor, finance, insurance, marketing, modern, portfolio">
+        © Todos os direitos reservados
+    </div>
+    <div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor10.png" alt="" -->
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                CFC e Pfizer Pro
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Internal Medicine - SNC</p>
+                                <p>Equipe: Gustavo Serravite</p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=DLfDX3_aqmk">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho" href="assets/pptx/gustavo.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor9.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Risk Sharing na contratação de fornecedores
+                            </div>
+                            <div class="body">
+                                <p>Área do time: COVID</p>
+                                <p>Equipe: Nayara Vieira</p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=fcvwNV5P4Ag">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo" href="assets/pptx/nayara.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor8.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Régua de comunicação com pacientes
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Comercial</p>
+                                <p>Equipe: Lucas Rolim, Rogerio Noveli, Thiago Thodarov, Eduardo Picoli, Janaina Moura
+                                </p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=HgMAHw_7Zf0">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho" href="assets/pptx/lucas-rolim.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor7.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                SRAG na população pediátrica
+                            </div>
+                            <div class="body">
+                                <p>Área do time: BAI e Farmacoeconomia</p>
+                                <p>Equipe: Joao Moreno, Rodrigo Alexandre, Mariana Sebastião</p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=f345lMr6IX8">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho" href="assets/pptx/joao-moreno.xlsx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor6.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Engajamento nas redes sociais
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Comunicação e Omnichannel Insights</p>
+                                <p>Equipe: Cristiane Santos, Michelle Pavoni, Miriane Barbosa Lage</p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=hMnsEVGHHfg">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja" href="assets/pptx/miriane-barbosa.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor5.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Melhorando a ChatBot Fabi
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Informações Médicas</p>
+                                <p>Equipe: Fernanda Solgate, Heidy Dutra, Patricia Aparecida Vieira</p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo  popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=Gmjdj8qc6fo">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo" href="assets/pptx/fernanda_s.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor4.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Revisão de mat. promocionais
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Medical Affairs</p>
+                                <p>Equipe: Gabriela Diccini Queiroz</p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=J3GTaYnfocM">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja" href="assets/pptx/gabriela-diccini.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor3.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Programa
+                                de Pacientes: Inscrição simplificada
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Patient Experience</p>
+                                <p>Equipe: Caroline Botelho e Maria Elisa França</p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=j1Aq0ggLeSQ">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo" href="assets/pptx/maria-elisa.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor2.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Cobertura vacinal
+                            </div>
+                            <div class="body">
+                                <p>Área do time: Parceira em Solução de saude PNI</p>
+                                <p>Equipe: Lilis Augusta Rodrigues, Jonatas Suamir e Rafaela Soares </p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=1v4rfGwp-1Q">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc" href="assets/pptx/lilis.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/primeira/flor1.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Datasus/RWE - Duchenne
+                            </div>
+                            <div class="body">
+                                <p>Área do time: PHI, Medical, MKT e BAI</p>
+                                <p>Equipe: Daniela Pachito, Harryson Santos, Isabel Pinheiro, Monica Olivieri e Patricia
+                                    Dreosso</p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc popup-youtube" data-bs-dismiss="modal" aria-label="Close" href="https://www.youtube.com/watch?v=FcQOeehk5ZM">Ver
+                                        vídeo</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc" href="assets/pptx/daniela-pachito.pptx">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal6-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/segunda/flor6.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Segmentação Clínicas
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Talita Belandrino Bordon​, Luiz Paulo Mattos​, Flavia Mohallem Oliveira​, Ilana Rachel Osmo da Fonseca​ E Marcelo Moreira dos Santos</p>
+                                <p class="mt-4"><a class="bt-inscricao-azul" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=0988869CD1C1637503B133AED1BA61A942878F025EFE5F55%2DEEBF5704982DDA5F23C42588F661B415ED0BAC37C51E293B7E0B2EEDCCB10802&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=6e5bf2a0%2D107f%2D4000%2D8b41%2D66837ab8b427">
+                                    Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-azul" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=7AC5822130BE59A2C7343FA54ECE444767155756C340418E%2DFD6025CE007C619EEA1C4B127F88E7AF11A8C742C2254361C398604DCB07CDCC&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=7a5bf2a0%2Db07d%2D4000%2D8b41%2D6f889d7384e4">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal5-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/segunda/flor5.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Melhoria Insigths Digitais
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Emerson Silva e Edneia Gomes</p>
+                                <p class="mt-4"><a class="bt-inscricao-verde" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=CF84E49D8CC53D812A592F278405579CD352F08734F18D83%2DC511F1B9F31579600C65413AA9A1A4456133FA2F92ECADA4EA6375444F7AF49B&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=ac84f2a0%2D9007%2D4000%2D6b83%2D39d60568e48a&sso_reload=true">
+                                    Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-verde" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=8EEE7961F8046F05F4E449BE2E8859BAF3F462CAFDDF9E28%2D6C3C635E6B200C5005CFB2015D97A438B00D2DCC9265574BA6017A7CEB1CB253&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=955bf2a0%2Dc05a%2D4000%2D8b41%2D6e62b1c52806">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal4-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/segunda/flor4.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                OKRs no Ommichannel de Pediatria
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Flávia Mohallem​, Erika Terrero​, Wesley Cacciari​, Lucas Dorsa, Gustavo Primo​, Mary Nishizaki, Vitor Hugo Lima​, Patrícia Dreosso, Ilana Fonseca​, Andrea Mitelman​, Eduardo Miyake​ e Ivan de Alvarenga
+                                </p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=DE9503D2A70CBB8D268E9D4CD4BFAE1D99DEACBE8EBD4A6B%2D2729145BA056AF5B2758564BCA46BA28886836A503ED2018B12926B6DD26AD26&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=845bf2a0%2D70e0%2D4000%2D6b83%2D37b56ee0adee">
+                                    Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-roxo" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=76D974D451071C1849AA52EFA1FF2176CA89112B4A160725%2DB01CB534EB72F05DA30C376F6AF589295B8D39F1C2FEEF148AA3767038EA07F3&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=8a5bf2a0%2D202a%2D4000%2D83e2%2Dcd26dfce5e4d">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal3-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/segunda/flor2.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Programa Saúde na Escola
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Carolinne Sousa, Redson Silva, Rafaela Soares e Mônica Ribeiro</p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho"  href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=23C39B8DC431FC1BB6F056C37FBE32BEA514DF0FDC67308B%2D4FF6694F1ADD2BFEA9175AA24C6C7B1A14A1DEDA834F68209D199AAA4CF15D62&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=405bf2a0%2Da0ce%2D4000%2D8b41%2D635978b17a2f">
+                                    Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-vinho" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=36CD67B3D642BFD07B67CD1DF94FED6709FD203ADD54659E%2DA938671CB1BF6A5F17F8C4FFD272690D3AB9A4E61E4D438845D04C756804C6D4&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=445bf2a0%2D10fd%2D4000%2D8b41%2D6d7e25e4c7d9">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal2-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div>
+                        <img src="assets/img/segunda/flor3.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                               Next - Sistema de recomendação 
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Jimena Marin​, Lucas Dorsa​, Vitor Hugo​, Vitoria Zanardo e Milena Andrade</p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja"  href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=B36BFC096D06085C3091E1DE9070BA2E04BCE36FBCE18FDE%2D0E78862B5D4C93972AFE3ED365BB0E19FD7D5847CC3A61632E4360BAC8D864E3&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=4d5bf2a0%2D80f3%2D4000%2D8b41%2D6135360e3196">
+                                    Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-laranja" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=048F2F516DC20F659DFD8627A2075AA89DAD110262406603%2D147DE6E8B0668434B31DB1F56628F2D1DB83EB6FB5BE500BDA9812E3DD450D72&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=b384f2a0%2D4014%2D4000%2D8b41%2D61eaafe894e4">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal1-v2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-center align-items-center" style="gap: 30px;">
+                    <div> 
+                        <img src="assets/img/segunda/flor1.png" alt="">
+                    </div>
+                    <div>
+                        <div class="card-1">
+                            <div class="header">
+                                <div class="close">
+                                    <button class="bt-x" type="button" data-bs-dismiss="modal" aria-label="Close"><strong>X</strong></button>
+                                </div>
+                                Análise Lançamento Bosulif 
+                            </div>
+                            <div class="body">
+                                <p>Equipe: Fábio do Carmo​, Mariana Martins​, Carolina Pirro, Marcos Barbosa​, André Zansávio​ e Renan Villar</p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc"  href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=5B53A5BE4F88E9EC613A7369E24A008BBE6ECF3F7F7E2D68%2D13671A14438DE22D4452FD756771AF4B11FC2E6542FE0B6DD2CB9B1BF0C54DDF&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=fe5af2a0%2D909f%2D4000%2D8b41%2D63897b225540">Videocast</a></p>
+                                <p class="mt-4"><a class="bt-inscricao-azulc" href="https://login.microsoftonline.com/7a916015-20ae-4ad1-9170-eefd915e9272/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=1AF39767E65FD48FDBA3260DC1A7F9A3593014D6A9B1CF22%2DE83869183F9377FF5C60829D984A4100572AA36A50AC979CA215428295FBFBCC&redirect%5Furi=https%3A%2F%2Fpfizer%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=045bf2a0%2D105e%2D4000%2D83e2%2Dc4180516ac73">Apresentação</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <!-- <div id="modalChallengeOpen" class="modal fade" role="dialog" style="display: none !important;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1>PARTICIPE DO DESAFIO JARDIM CROSS POLLINATION E CONCORRA O PRÊMIO EXCLUSIVO.
+                    </h1>
+                    <button class="pre-order-btn close" data-dismiss="modal" data-target="#desafio">DESAFIO</button>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/pagenav.js"></script>
+    <script src="assets/js/jquery.barfiller.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/desafio.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.js"></script>
+    <script src="https://kit.fontawesome.com/3239e58e6a.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/validate/jquery.validate.min.js"></script>
+    <script src="assets/js/validate/messages_pt_BR.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.33/sweetalert2.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/cadastro.js"></script>
+    <script src="assets/js/mapiamento.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script>
+    const timerElement = document.getElementById('timer');
+    const startButton = document.getElementById('nextBtn');
+    const nomeInput = document.getElementById('desafio-nome');
+    const emailInput = document.getElementById('desafio-email');
+
+    let startTime = 0;
+    let intervalId;
+
+    function updateTimer() {
+        const currentTime = new Date().getTime();
+        const elapsedTime = currentTime - startTime;
+        const hours = Math.floor(elapsedTime / 3600000);
+        const minutes = Math.floor((elapsedTime % 3600000) / 60000);
+        const seconds = Math.floor((elapsedTime % 60000) / 1000);
+
+        const formattedMinutes = `${minutes.toString().padStart(2, '0')}`;
+        const formattedSeconds = `${seconds.toString().padStart(2, '0')}`;
+
+        document.getElementById('number-1').textContent = formattedMinutes.charAt(0);
+        document.getElementById('number-2').textContent = formattedMinutes.charAt(1);
+        document.getElementById('number-3').textContent = formattedSeconds.charAt(0);
+        document.getElementById('number-4').textContent = formattedSeconds.charAt(1);
+
+        const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+        document.getElementById('tempo').value = formattedTime
+    }
+
+    function startTimer() {
+        startTime = new Date().getTime();
+        intervalId = setInterval(updateTimer, 1000);
+    }
+
+    function checkInputs() {
+        if (nomeInput.value !== '' && emailInput.value !== '') {
+            startButton.addEventListener('click', startTimer);
+        }
+    }
+
+    nomeInput.addEventListener('blur', checkInputs);
+    emailInput.addEventListener('blur', checkInputs);
+    </script>
+    <!--script>
+    $(document).ready(function() {
+        $('.mapster-responsive').mapster({
+            isResponsive: true,
+            singleSelect: true,
+            fillOpacity: 0,
+            render_highlight: {
+                fillColor: 'ff0000',
+                fillOpacity: 0.6
+            }
+        });
+
+
+        $('#modalChallengeOpen').modal('show');
+
+
+
+
+    });
+
+    $('button[data-target]').click(function() {
+        var target = $(this).data('target');
+
+        // Verifique se o elemento alvo existe na página
+        if ($(target).length > 0) {
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 500); // A animação levará 1 segundo (1000 milissegundos)
+        }
+    });
+    </script-->
+    <script type="text/javascript">
+    const help1 = document.querySelector('.help1');
+    const too1 = document.querySelector('.too1');
+    help1.addEventListener('click', () => {
+        too1.classList.toggle('show');
+    });
+    const help2 = document.querySelector('.help2');
+    const too2 = document.querySelector('.too2');
+    help2.addEventListener('click', () => {
+        too2.classList.toggle('show');
+    });
+    const help3 = document.querySelector('.help3');
+    const too3 = document.querySelector('.too3');
+    help3.addEventListener('click', () => {
+        too3.classList.toggle('show');
+    });
+    const help4 = document.querySelector('.help4');
+    const too4 = document.querySelector('.too4');
+    help4.addEventListener('click', () => {
+        too4.classList.toggle('show');
+    });
+    const help5 = document.querySelector('.help5');
+    const too5 = document.querySelector('.too5');
+    help5.addEventListener('click', () => {
+        too5.classList.toggle('show');
+    });
+
+    const help6 = document.querySelector('.help6');
+    const too6 = document.querySelector('.too6');
+    help6.addEventListener('click', () => {
+        too6.classList.toggle('show');
+    });
+    </script>
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+    <script type="text/javascript">
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+    showTab(currentTab); // Display the current tab
+
+    function showTab(n) {
+        // This function will display the specified tab of the form...
+        var x = document.getElementsByClassName("tab");
+        x[n].style.display = "block";
+        //... and fix the Previous/Next buttons:
+        if (n == 0) {
+            document.getElementById("prevBtn").style.display = "none";
+        } else {
+            document.getElementById("prevBtn").style.display = "inline";
+        }
+
+        console.log(n == (x.length - 1))
+
+        if (n == (x.length - 1)) {
+            document.getElementById("nextBtn").innerHTML = "ENVIAR";
+            document.querySelector('.esconder').style.display = "block"
+            document.querySelector('.esconder-2').style.display = "block"
+            document.querySelector('.mostrar').style.display = "none"
+
+        } else {
+            document.querySelector('.esconder').style.display = "none"
+            document.querySelector('.esconder-2').style.display = "none"
+            document.querySelector('.mostrar').style.display = "block"
+            document.getElementById("nextBtn").innerHTML = "PRÓXIMO";
+
+
+        }
+        //... and run a function that will display the correct step indicator:
+        fixStepIndicator(n)
+    }
+
+    function nextPrev(n) {
+        // This function will figure out which tab to display
+        var x = document.getElementsByClassName("tab");
+        // Exit the function if any field in the current tab is invalid:
+        if (n == 1 && !validateForm()) return false;
+        // Hide the current tab:
+        x[currentTab].style.display = "none";
+        // Increase or decrease the current tab by 1:
+        currentTab = currentTab + n;
+        // if you have reached the end of the form...
+        if (currentTab >= x.length) {
+            // ... the form gets submitted:
+            document.getElementById("regForm").submit();
+            return false;
+        }
+        // Otherwise, display the correct tab:
+        showTab(currentTab);
+    }
+    </script>
+    <script type="text/javascript">
+    // function validateForm() {
+    //     // This function deals with validation of the form fields
+    //     var x, y, i, valid = true;
+    //     x = document.getElementsByClassName("tab");
+    //     y = x[currentTab].querySelectorAll("input, textarea");
+
+    //     // A loop that checks every input field in the current tab:
+    //     for (i = 0; i < y.length; i++) {
+    //         // If a field is empty...
+    //         if (y[i].value == "") {
+    //             // add an "invalid" class to the field:
+    //             y[i].className += " invalid";
+    //             // and set the current valid status to false
+    //             valid = false;
+    //         }
+    //     }
+    //     // If the valid status is true, mark the step as finished and valid:
+    //     if (valid) {
+    //         document.getElementsByClassName("step")[currentTab].className += " finish";
+    //     }
+    //     return valid; // return the valid status
+    // }
+
+    function validateForm() {
+        // This function deals with validation of the form fields
+        var x, y, i, valid = true;
+        x = document.getElementsByClassName("tab");
+        y = x[currentTab].querySelectorAll("input, textarea");
+
+        // A loop that checks every input field in the current tab:
+        for (i = 0; i < y.length; i++) {
+            var field = y[i];
+            // Check if the field has an id and if it's not "email_responsavel":
+            if (field.id && field.id !== "email_responsavel") {
+                // If a field is empty...
+                if (field.value == "") {
+                    // add an "invalid" class to the field:
+                    field.className += " invalid";
+                    // and set the current valid status to false
+                    valid = false;
+                }
+            }
+        }
+        // If the valid status is true, mark the step as finished and valid:
+        if (valid) {
+            document.getElementsByClassName("step")[currentTab].className += " finish";
+        }
+        return valid; // return the valid status
+    }
+
+    function fixStepIndicator(n) {
+        // This function removes the "active" class of all steps...
+        var i, x = document.getElementsByClassName("step");
+        for (i = 0; i < x.length; i++) {
+            x[i].className = x[i].className.replace(" active", "");
+        }
+        //... and adds the "active" class on the current step:
+        x[n].className += " active";
+    }
+
+    $('.owl-carousel').owlCarousel({
+        stagePadding: 200,
+        loop: true,
+        margin: 10,
+        items: 1,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                stagePadding: 60
+            },
+            600: {
+                items: 1,
+                stagePadding: 100
+            },
+            1000: {
+                items: 1,
+                stagePadding: 200
+            },
+            1200: {
+                items: 1,
+                stagePadding: 250
+            },
+            1400: {
+                items: 1,
+                stagePadding: 100
+            },
+            1600: {
+                items: 1,
+                stagePadding: 100
+            },
+            1800: {
+                items: 1,
+                stagePadding: 300
+            }
+        }
+    })
+
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+            type: 'iframe'
+        });
+    });
+
+    document.querySelector(".owl-prev").innerHTML = "<"
+    document.querySelector(".owl-next").innerHTML = ">"
+
+
+    //slideshow style interval
+    var autoSwap = setInterval(swap, 5000);
+
+    //pause slideshow and reinstantiate on mouseout
+    $('ul, span').hover(
+        function() {
+            clearInterval(autoSwap);
+        },
+        function() {
+            autoSwap = setInterval(swap, 5000);
+        });
+
+    //global variables
+    var items = [];
+    var startItem = 1;
+    var position = 0;
+    var itemCount = $('.carousel li.items').length;
+    var leftpos = itemCount;
+    var resetCount = itemCount;
+
+    //unused: gather text inside items class
+    $('li.items').each(function(index) {
+        items[index] = $(this).text();
+    });
+
+    //swap images function
+    function swap(action) {
+        var direction = action;
+
+        //moving carousel backwards
+        if (direction == 'counter-clockwise') {
+            var leftitem = $('.left-pos').attr('id') - 1;
+            if (leftitem == 0) {
+                leftitem = itemCount;
+            }
+
+            $('.right-pos').removeClass('right-pos').addClass('back-pos');
+            $('.main-pos').removeClass('main-pos').addClass('right-pos');
+            $('.left-pos').removeClass('left-pos').addClass('main-pos');
+            $('#' + leftitem + '').removeClass('back-pos').addClass('left-pos');
+
+            startItem--;
+            if (startItem < 1) {
+                startItem = itemCount;
+            }
+        }
+
+        //moving carousel forward
+        if (direction == 'clockwise' || direction == '' || direction == null) {
+            function pos(positionvalue) {
+                if (positionvalue != 'leftposition') {
+                    //increment image list id
+                    position++;
+
+                    //if final result is greater than image count, reset position.
+                    if ((startItem + position) > resetCount) {
+                        position = 1 - startItem;
+                    }
+                }
+
+                //setting the left positioned item
+                if (positionvalue == 'leftposition') {
+                    //left positioned image should always be one left than main positioned image.
+                    position = startItem - 1;
+
+                    //reset last image in list to left position if first image is in main position
+                    if (position < 1) {
+                        position = itemCount;
+                    }
+                }
+
+                return position;
+            }
+
+            $('#' + startItem + '').removeClass('main-pos').addClass('left-pos');
+            $('#' + (startItem + pos()) + '').removeClass('right-pos').addClass('main-pos');
+            $('#' + (startItem + pos()) + '').removeClass('back-pos').addClass('right-pos');
+            $('#' + pos('leftposition') + '').removeClass('left-pos').addClass('back-pos');
+
+            startItem++;
+            position = 0;
+            if (startItem > itemCount) {
+                startItem = 1;
+            }
+        }
+    }
+
+    //next button click function
+    $('#next').click(function() {
+        swap('clockwise');
+    });
+
+    //prev button click function
+    $('#prev').click(function() {
+        swap('counter-clockwise');
+    });
+
+    //if any visible items are clicked
+    $('li').click(function() {
+        if ($(this).attr('class') == 'items left-pos') {
+            swap('counter-clockwise');
+        } else {
+            swap('clockwise');
+        }
+    });
+
+    const btnSave = document.getElementById("salvar")
+
+    btnSave.addEventListener('click', function(e) {
+        e.preventDefault()
+
+        let email = document.getElementById('email').value
+        let emailResponsavel = document.getElementById('email_responsavel').value
+        let emailResponsavel1 = document.getElementById('email_responsavel1').value
+        let area = document.getElementById('area').value
+        let pergunta_1 = document.getElementById('pergunta_1').value
+        let pergunta_2 = document.getElementById('pergunta_2').value
+        let pergunta_3 = document.getElementById('pergunta_3').value
+        let pergunta_4 = document.getElementById('pergunta_4').value
+        let pergunta_5 = document.getElementById('pergunta_4').value
+
+        console.log(email, emailResponsavel, area, pergunta_1, pergunta_2, pergunta_3, pergunta_4, pergunta_5)
+
+        localStorage.setItem("email", email)
+        localStorage.setItem("emailResponsavel", emailResponsavel)
+        localStorage.setItem("area", area)
+        localStorage.setItem("pergunta_1", pergunta_1)
+        localStorage.setItem("pergunta_2", pergunta_2)
+        localStorage.setItem("pergunta_3", pergunta_3)
+        localStorage.setItem("pergunta_4", pergunta_4)
+        localStorage.setItem("pergunta_5", pergunta_5)
+
+        Swal.fire({
+            type: 'success',
+            title: 'Parabéns!',
+            text: 'Seus dados foram salvos com sucesso!'
+        }).then(function() {
+            location.reload();
+        });
+
+    })
+
+    document.getElementById('email').value = localStorage.getItem("email")
+    document.getElementById('email_responsavel').value = localStorage.getItem("emailResponsavel")
+    document.getElementById('area').value = localStorage.getItem("area")
+    document.getElementById('pergunta_1').value = localStorage.getItem("pergunta_1")
+    document.getElementById('pergunta_2').value = localStorage.getItem("pergunta_2")
+    document.getElementById('pergunta_3').value = localStorage.getItem("pergunta_3")
+    document.getElementById('pergunta_4').value = localStorage.getItem("pergunta_4")
+    document.getElementById('pergunta_5').value = localStorage.getItem("pergunta_5")
+    </script>
+    <script async="" src="assets/js/video.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        var imagemMap = document.getElementById('jardim');
+        var modal = document.querySelectorAll('.modal')
+        imagemMap.addEventListener('mouseover', function() {
+            imagemMap.style.cursor = 'url(assets/img/cursor.png), auto';
+        });
+
+        imagemMap.addEventListener('mouseout', function() {
+            imagemMap.style.cursor = 'auto';
+        });
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+    var glide = new Glide('#intro', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        breakpoints: {
+            600: {
+                perView: 1
+            },
+            767: {
+                perView: 2
+            }
+        }
+
+    })
+
+    glide.mount()
+    </script>
+</body>
+
+</html>

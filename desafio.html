@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    </script>
+    <title>Cross Pollination - Desafio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Crosspollination, cross pollination, site cross pollination, site Crospollination" />
+    <meta name="description"
+        content="Cross Pollination envolve incentivar as equipes a disseminarem boas práticas de análise de dados dentro da Pfizer, acelerando o aprendizado analítico contínuo, a troca de ideias e a inovação..." />
+    <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/finais.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.1/sweetalert2.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css" />
+
+    <style>
+        .saas_two_main_header {
+            top: 0;
+        }
+
+        .timer-container {
+            display: flex;
+            align-items: baseline;
+            justify-content: end;
+            max-width: 86%;
+            margin-top: 20px;
+            gap: 2px;
+        }
+
+        .flex-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .flex-content .text {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .flex-content .flex-span span:nth-child(1),
+        .flex-content .flex-span span:nth-child(2) {
+            background: linear-gradient(to right, rgb(85, 149, 209), #0095d1);
+
+            color: white;
+            padding: 7px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .color-points {
+            color: #0095d1;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .timer-container {
+                justify-content: center;
+                max-width: 100%;
+            }
+
+            .order-mobile {
+                order: 1;
+            }
+
+
+            .bt-comecar {
+                margin-bottom: 20px;
+            }
+
+            .image-container {
+            width: 100%;
+            overflow-x: scroll;
+            /* Ativa o scroll horizontal */
+            white-space: nowrap;
+            /* Evita quebra de linha */
+        }
+        }
+
+        
+    </style>
+</head>
+
+<body class="saas-classic" data-spy="scroll" data-target=".s2-main-navigation" data-offset="80">
+    <div id="preloader" class="saas-classic-preloader"></div>
+    <div class="up">
+        <a href="#" id="scrollup" class="saas-classic-scrollup text-center"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <!-- Start of header section
+        ============================================= -->
+    <header id="header_main" class="saas_two_main_header">
+        <div class="container">
+            <div class="s_main_menu">
+                <div class="row">
+                    <div class="col-5 col-sm-6 col-md-2">
+                        <div class="brand_logo text-center">
+                            <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class=" col-7 col-sm-6 col-md-8">
+                        <div class="main_menu_list d-flex justify-content-center clearfix">
+                            <nav class="s2-main-navigation  clearfix ul-li">
+                                <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                                    <li><a class="nav-link" href="index.html#jardim">Jardim Pollination</a></li>
+                                    <li><a class="nav-link active" href="#desafio">Desafio</a></li>
+                                    <li><a class="nav-link" href="index.html#Pollination">O que é Cross Pollination?</a>
+                                    </li>
+                                    <li><a class="nav-link" href="index.html#convite">Convite para você</a></li>
+                                    <li class="incri d-none"><a class="nav-link bt-inscricao"
+                                            href="index.html#inscricao">Inscrição</a>
+                                    </li>
+                                    <li><a class="nav-link" href="#origami">Origami </a></li>
+                                </ul>
+                            </nav>
+                            <div class="saas_sign_up_btn text-center mobile d-none">
+                                <a href="#inscricao"> Faça a sua inscrição</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="brand_logo text-center desk">
+                            <img src="assets/img/saas-c/logo/logo-easy.png" alt="logo-easy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //desktop menu -->
+            <div class="s2-mobile_menu relative-position">
+                <div class="s2-mobile_menu_button s2-open_mobile_menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="s2-mobile_menu_wrap">
+                    <div class="mobile_menu_overlay s2-open_mobile_menu"></div>
+                    <div class="s2-mobile_menu_content">
+                        <div class="s2-mobile_menu_close s2-open_mobile_menu">
+                            <i class="far fa-times-circle"></i>
+                        </div>
+                        <div class="m-brand-logo text-center">
+                            <a href="!#"><img src="assets/img/saas-c/logo/logo-easy.png" alt=""></a>
+                        </div>
+                        <nav class="s2-mobile-main-navigation  clearfix ul-li">
+                            <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                <li><a class="links_mobile" href="index.html#jardim">Jardim Pollination</a></li>
+                                <li><a class="links_mobile" href="#desafio">Desafio</a></li>
+                                <li><a class="links_mobile" href="index.html#Pollination">O que é Cross Pollination?</a>
+                                </li>
+                                <li><a class="links_mobile" href="index.html#convite">Convite para você</a></li>
+                                <li><a class="links_mobile d-none" href="index.html#inscricao">Inscrição</a></li>
+                                <li><a class="links_mobile" href="index.html#origami">Origami</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="desafio" class="saas_two_banner_section relative-position mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 sem-padding-md">
+                    <form name="form-desafio" id="form-desafio" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="etapa">
+                            <div class="text-center">
+                                <h2 class="tit-desafio">Desafio Jardim Pollination</h2>
+                                <div class="row ">
+                                    <div class="col-12">
+                                        <h3 class="desafio-h3">Preencha o cadastro</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" id="desafio-nome" placeholder="Nome">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" id="desafio-email" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <h3 class="desafio-h3-2">Encontre os beija-flores que estão polinizando nosso
+                                            <span class="span-jd">Jardim</span>
+                                        </h3>
+                                        <div class="color-div-etapa-1">
+                                            <p class="p-etapa-1 text-center">
+                                                <strong>No nosso Jardim Pollination temos diversos
+                                                    beija-flores,</strong>
+                                                quando estiver preparado aperte o botão começar e encontre todos eles.
+                                            </p>
+                                        </div>
+                                        <button class="bt-comecar" type="button" id="nextBtn"
+                                            onclick="validarEtapa1()">Começar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="etapa sem-img" style="display: none;">
+                            <div class="text-center">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="bird-stp-3">
+                                            <h2 class="tit-desafio etp2">Encontre os beija-flores coloridos no jardim...
+                                            </h2>
+                                            <img class="bird-roxo" src="assets/img/bird-roxo.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 borda-roxo image-container">
+                                        <img class="jardim-bird" src="assets/img/jardim-bird.jpg" />
+                                    </div>
+                                    <div class="col-12 d-flex-center">
+                                        <p class="p-bird">Resposta </p>
+                                        <div class="Respostas-bird">
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-azul"
+                                                    placeholder="">
+                                                <label class="l-bird">azul</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-laranja"
+                                                    placeholder="">
+                                                <label class="l-bird">laranja</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-vermelho"
+                                                    placeholder="">
+                                                <label class="l-bird">vermelho</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-roxo"
+                                                    placeholder="">
+                                                <label class="l-bird">roxo</label>
+                                            </div>
+                                            <div class="div-p">
+                                                <input class="input-r" maxlength="2" type="text" id="p-verde"
+                                                    placeholder="">
+                                                <label class="l-bird">verde</label>
+                                            </div>
+
+                                            <input type="hidden" name="tempo" id="tempo">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 order-mobile">
+                                        <!-- <p id="timer">00:00:00</p> -->
+                                        <div class="timer-container">
+                                            <div class="flex-content">
+                                                <div class="flex-span">
+                                                    <span id="number-1">0</span>
+                                                    <span id="number-2">1</span>
+                                                </div>
+                                                <span class="text">Minutos</span>
+                                            </div>
+                                            <span class="color-points">:</span>
+                                            <div class="flex-content">
+                                                <div class="flex-span">
+                                                    <span id="number-3">0</span>
+                                                    <span id="number-4">1</span>
+                                                </div>
+                                                <span class="text">Segundos</span>
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <button class="bt-comecar" onclick="validarEtapa2()" id="enviar"
+                                                type="button">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="etapa" style="display: none;">
+                        <div class="text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img class="img-stp-3" src="assets/img/logo-grande.png">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="etp-3-p1">Agradecemos a sua participação!</p>
+                        <p class="etp-3-p2">Em breve confirmaremos o resultado!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="saas_two_footer" class="saas_two_footer_section relative-position">
+        <div class="footer_content pera-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/pfizer.png" alt="logo-pfazer">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/saas-c/logo/logo-easy.png" alt="logo-easy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="s2-copyright text-center">2023
+        <meta name="keywords"
+            content=" accountant, advertising, advisor, agency, broker, business, clean, consulting, creative, elementor, finance, insurance, marketing, modern, portfolio">
+        © Todos os direitos reservados
+    </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/pagenav.js"></script>
+    <script src="assets/js/jquery.barfiller.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/desafio.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.js"></script>
+    <script src="https://kit.fontawesome.com/3239e58e6a.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/validate/jquery.validate.min.js"></script>
+    <script src="assets/js/validate/messages_pt_BR.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.33/sweetalert2.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const timerElement = document.getElementById('timer');
+        const startButton = document.getElementById('nextBtn');
+        const nomeInput = document.getElementById('desafio-nome');
+        const emailInput = document.getElementById('desafio-email');
+
+
+
+        let startTime = 0;
+        let intervalId;
+
+        function updateTimer() {
+            const currentTime = new Date().getTime();
+            const elapsedTime = currentTime - startTime;
+            const hours = Math.floor(elapsedTime / 3600000);
+            const minutes = Math.floor((elapsedTime % 3600000) / 60000);
+            const seconds = Math.floor((elapsedTime % 60000) / 1000);
+
+
+
+            const formattedMinutes = `${minutes.toString().padStart(2, '0')}`;
+            const formattedSeconds = `${seconds.toString().padStart(2, '0')}`;
+
+
+            document.getElementById('number-1').textContent = formattedMinutes.charAt(0);
+            document.getElementById('number-2').textContent = formattedMinutes.charAt(1);
+            document.getElementById('number-3').textContent = formattedSeconds.charAt(0);
+            document.getElementById('number-4').textContent = formattedSeconds.charAt(1);
+
+            const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+            document.getElementById('tempo').value = formattedTime
+
+        }
+
+        function startTimer() {
+            startTime = new Date().getTime();
+            intervalId = setInterval(updateTimer, 1000);
+        }
+
+        function checkInputs() {
+            if (nomeInput.value !== '' && emailInput.value !== '') {
+                startButton.addEventListener('click', startTimer);
+            }
+        }
+
+        nomeInput.addEventListener('blur', checkInputs);
+        emailInput.addEventListener('blur', checkInputs);
+    </script>
+</body>
+
+</html>
